@@ -15,7 +15,7 @@ namespace CityInfo.API
            {
                o.OutputFormatters.Add(new XmlDataContractSerializerOutputFormatter());
                // o.OutputFormatters.RemoveType(typeof(SystemTextJsonOutputFormatter));
-           });
+           }).AddNewtonsoftJson();
             //.AddJsonOptions(jsonOptions =>
             //     {
             //         jsonOptions.JsonSerializerOptions.PropertyNamingPolicy = null;
