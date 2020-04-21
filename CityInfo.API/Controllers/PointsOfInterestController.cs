@@ -1,6 +1,9 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using CityInfo.API.Models;
+using CityInfo.API.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
 namespace CityInfo.API.Controllers
 {
@@ -8,17 +11,35 @@ namespace CityInfo.API.Controllers
     [ApiController]
     public class PointsOfInterestController : ControllerBase
     {
+        private readonly ILogger<PointOfInterestDto> _logger;
+        private readonly IMailService _mailservice;
+
+        public PointsOfInterestController(ILogger<PointOfInterestDto> logger, IMailService mailService)
+        {
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
+            _mailservice = mailService ?? throw new ArgumentException(nameof(logger));
+        }
+
         [HttpGet]
         public IActionResult GetPointsOfInterest(int cityId)
         {
-            var city = CitiesDataStore.Current.Cities.FirstOrDefault(c => c.Id == cityId);
-
-            if (city == null)
+            try
             {
-                return NotFound();
-            }
+                var city = CitiesDataStore.Current.Cities.FirstOrDefault(c => c.Id == cityId);
 
-            return Ok(city.PointOfInterest);
+                if (city == null)
+                {
+                    return NotFound();
+                }
+
+                return Ok(city.PointOfInterest);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogWarning($"Exception while getting point of interest for city with id:{cityId}", ex);
+
+                return StatusCode(500, "A problem happened while handling your request");
+            }
         }
 
         [HttpGet("{id}", Name = "GetPointsOfInterest")]
@@ -110,6 +131,8 @@ namespace CityInfo.API.Controllers
             if (city == null) return NotFound();
 
             city.PointOfInterest.Remove(pointOfInterestFromStore);
+
+            _mailservice.Send("Point of interest deleted", $"Point of interest {pointOfInterestFromStore.Name} with id {pointOfInterestFromStore.Id} was removed!");
 
             return NoContent();
         }
