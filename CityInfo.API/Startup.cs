@@ -1,14 +1,24 @@
+using CityInfo.API.Contexts;
 using CityInfo.API.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc.Formatters;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System;
 
 namespace CityInfo.API
 {
     public class Startup
     {
+        private readonly IConfiguration _config;
+
+        public Startup(IConfiguration configuration)
+        {
+            _config = configuration ?? throw new ArgumentNullException(nameof(configuration));
+        }
+
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc(options => options.EnableEndpointRouting = false)
@@ -25,7 +35,13 @@ namespace CityInfo.API
             services.AddTransient<IMailService, LocalMailService>();
 #else
             services.AddTransient<IMailService, CloudMailService>();
+
 #endif
+            var connectionString = _config["connectionStrings:cityInfoDbConnectionString"];
+            services.AddDbContext<CityInfoContext>(o =>
+            {
+                o.UseSqlServer(connectionString);
+            });
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

@@ -1,0 +1,33 @@
+2020-04-25 11:58:43.6955|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Cities] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [Description] nvarchar(200) NOT NULL,
+    CONSTRAINT [PK_Cities] PRIMARY KEY ([Id])
+);
+2020-04-25 12:05:17.1494|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Cities] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [Description] nvarchar(200) NOT NULL,
+    CONSTRAINT [PK_Cities] PRIMARY KEY ([Id])
+);
+2020-04-25 12:06:23.4590|DEBUG|CityInfo.API.Program|init main
+2020-04-25 12:06:27.3668|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-04-25 12:06:27.3738|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-04-25 12:06:27.3963|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\smajl\Documents\Programming\CityInfo\CityInfo.API
+2020-04-25 12:12:39.5972|DEBUG|CityInfo.API.Program|init main
+2020-04-25 12:12:41.9875|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-04-25 12:12:41.9968|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-04-25 12:12:41.9968|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\smajl\Documents\Programming\CityInfo\CityInfo.API
+2020-04-25 13:35:49.9926|DEBUG|CityInfo.API.Program|init main
+2020-04-25 13:41:42.3993|DEBUG|CityInfo.API.Program|init main
+2020-04-25 13:42:58.0266|DEBUG|CityInfo.API.Program|init main
+2020-04-25 13:49:39.4961|DEBUG|CityInfo.API.Program|init main
+2020-04-25 13:49:42.9641|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-04-25 13:49:42.9986|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-04-25 13:49:43.1790|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\smajl\Documents\Programming\CityInfo\CityInfo.API
+2020-04-25 13:51:05.2419|DEBUG|CityInfo.API.Program|init main
+2020-04-25 13:51:07.1541|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-04-25 13:51:07.1541|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-04-25 13:51:07.1845|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\smajl\Documents\Programming\CityInfo\CityInfo.API
