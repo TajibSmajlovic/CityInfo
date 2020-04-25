@@ -31,3 +31,69 @@ CREATE TABLE [Cities] (
 2020-04-25 13:51:07.1541|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
 2020-04-25 13:51:07.1541|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
 2020-04-25 13:51:07.1845|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\smajl\Documents\Programming\CityInfo\CityInfo.API
+2020-04-25 15:08:12.0569|DEBUG|CityInfo.API.Program|init main
+2020-04-25 15:08:17.8659|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-04-25 15:08:17.8802|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-04-25 15:08:17.9013|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\smajl\Documents\Programming\CityInfo\CityInfo.API
+2020-04-25 15:09:03.7752|DEBUG|CityInfo.API.Program|init main
+2020-04-25 15:09:05.3798|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-04-25 15:09:05.3847|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-04-25 15:09:05.3847|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\smajl\Documents\Programming\CityInfo\CityInfo.API
+2020-04-25 15:18:43.8133|DEBUG|CityInfo.API.Program|init main
+2020-04-25 15:18:45.4951|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-04-25 15:18:45.4951|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-04-25 15:18:45.5169|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\smajl\Documents\Programming\CityInfo\CityInfo.API
+2020-04-25 15:19:34.6733|DEBUG|CityInfo.API.Program|init main
+2020-04-25 15:19:37.0522|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-04-25 15:19:37.0706|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-04-25 15:19:37.0843|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\smajl\Documents\Programming\CityInfo\CityInfo.API
+2020-04-25 15:21:05.7990|DEBUG|CityInfo.API.Program|init main
+2020-04-25 15:21:08.2752|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-04-25 15:21:08.2930|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-04-25 15:21:08.3236|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\smajl\Documents\Programming\CityInfo\CityInfo.API
+2020-04-25 15:25:38.3337|DEBUG|CityInfo.API.Program|init main
+2020-04-25 15:25:39.8164|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-04-25 15:25:39.8164|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-04-25 15:25:39.8299|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\smajl\Documents\Programming\CityInfo\CityInfo.API
+2020-04-25 15:39:30.9545|DEBUG|CityInfo.API.Program|init main
+2020-04-25 15:39:34.3719|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-04-25 15:39:34.4039|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-04-25 15:39:34.4210|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\smajl\Documents\Programming\CityInfo\CityInfo.API
+2020-04-25 16:01:26.5726|DEBUG|CityInfo.API.Program|init main
+2020-04-25 16:01:28.7724|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-04-25 16:01:28.7837|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-04-25 16:01:28.7959|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\smajl\Documents\Programming\CityInfo\CityInfo.API
+2020-04-25 16:15:02.0158|DEBUG|CityInfo.API.Program|init main
+2020-04-25 16:15:04.0969|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-04-25 16:15:04.1052|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-04-25 16:15:04.1196|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\smajl\Documents\Programming\CityInfo\CityInfo.API
+2020-04-25 16:18:06.8562|DEBUG|CityInfo.API.Program|init main
+2020-04-25 16:18:08.8459|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-04-25 16:18:08.8550|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-04-25 16:18:08.8550|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\smajl\Documents\Programming\CityInfo\CityInfo.API
+2020-04-25 16:23:05.2307|DEBUG|CityInfo.API.Program|init main
+2020-04-25 16:23:08.2100|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-04-25 16:23:08.2404|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-04-25 16:23:08.2731|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\smajl\Documents\Programming\CityInfo\CityInfo.API
+2020-04-25 16:23:15.6703|WARN|CityInfo.API.Models.PointOfInterestDto|Exception while getting point of interest for city with id:1
+2020-04-25 16:23:16.6833|WARN|CityInfo.API.Models.PointOfInterestDto|Exception while getting point of interest for city with id:1
+2020-04-25 16:23:41.9427|WARN|CityInfo.API.Models.PointOfInterestDto|Exception while getting point of interest for city with id:1
+2020-04-25 16:24:10.4770|WARN|CityInfo.API.Models.PointOfInterestDto|Exception while getting point of interest for city with id:1
+2020-04-25 16:25:07.3727|DEBUG|CityInfo.API.Program|init main
+2020-04-25 16:25:10.0407|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-04-25 16:25:10.0618|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-04-25 16:25:10.0743|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\smajl\Documents\Programming\CityInfo\CityInfo.API
+2020-04-25 16:25:40.3800|WARN|CityInfo.API.Models.PointOfInterestDto|Exception while getting point of interest for city with id:1
+2020-04-25 16:27:01.7084|WARN|CityInfo.API.Models.PointOfInterestDto|Exception while getting point of interest for city with id:1
+2020-04-25 16:28:22.3418|DEBUG|CityInfo.API.Program|init main
+2020-04-25 16:28:26.6201|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-04-25 16:28:26.6201|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-04-25 16:28:26.6506|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\smajl\Documents\Programming\CityInfo\CityInfo.API
+2020-04-25 16:49:56.9198|DEBUG|CityInfo.API.Program|init main
+2020-04-25 16:49:59.3400|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-04-25 16:49:59.3400|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-04-25 16:49:59.3668|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\smajl\Documents\Programming\CityInfo\CityInfo.API
+2020-04-25 17:21:53.4832|DEBUG|CityInfo.API.Program|init main
+2020-04-25 17:21:56.7750|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2020-04-25 17:21:56.7850|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2020-04-25 17:21:56.8030|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\smajl\Documents\Programming\CityInfo\CityInfo.API
